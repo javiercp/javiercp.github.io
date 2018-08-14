@@ -1,0 +1,10 @@
+permalink: /posts/:title
+markdown: kramdown
+
+gems:
+  - jekyll-sitemap
+
+name: Javier Campos
+url: https://javiercp.github.io
+description: A fantastic blog that is fantastic.
+twitter: darthcampos

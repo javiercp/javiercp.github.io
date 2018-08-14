@@ -1,0 +1,17 @@
+---
+layout: post
+title: First post \(^_^)/
+category: posts
+---
+
+Me he decidido a crear un blog personal donde escribir y contar "cosas". 
+
+Escribiré sobre tecnología, frikadas y todo aquello que me resulte interesante, principalmente para no perderlo y tener un sitio donde recordar.
+
+On with the show! :P
+
+---
+
+Para cualquier cosa podeis encontrarme en Twitter. Allí soy [@darthcampos][twitter].
+
+[twitter]: https://twitter.com/darthcampos
