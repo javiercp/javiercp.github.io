@@ -1,7 +1,9 @@
 ---
 layout: post
 title: First post \(^_^)/
+description: Primer post de mi blog personal.
 category: posts
+tags: meta
 ---
 
 Me he decidido a crear un blog personal donde escribir y contar "cosas". 

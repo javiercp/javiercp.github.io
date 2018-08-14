@@ -1,3 +1,12 @@
-# Personal blog
+# Personal Blog
 
-Created from [Left](https://github.com/holman/left/)
+Ideas, recuerdos, notas.
+
+### Theme
+
+The theme is forked from [Left](https://github.com/holman/left/)
+
+### License
+
+Open sourced under the [MIT license](LICENSE.md).
+

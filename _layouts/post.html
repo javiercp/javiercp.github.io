@@ -7,6 +7,13 @@ layout: layout
     <a href="{{ page.url }}">{{ page.title }}</a>
   </h1>
 
+  <span>[
+    {% for tag in page.tags %}
+      {% capture tag_name %}{{ tag }}{% endcapture %}
+      <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+    {% endfor %}
+  ]</span>  
+
   <section class="byline">
     {{ page.date | date: "%B %e, %Y" }}
   </section>
@@ -22,7 +29,8 @@ layout: layout
       </a>
 
       <p>
-        I'm a developer. <a href="https://twitter.com/{{ site.twitter }}" target="_blank">Follow me on Twitter</a>; I'll post tech, geeky, happy stuff.       
+        I'm a developer. <a href="https://twitter.com/{{ site.twitter }}" target="_blank">
+          Follow me on Twitter</a>; I'll post tech, geeky, happy stuff. (^_^)      
       </p>
 
       <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}">Tweet</a>
